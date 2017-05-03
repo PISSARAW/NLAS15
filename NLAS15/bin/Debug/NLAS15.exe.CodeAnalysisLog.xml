@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="D:\Gestion M2L\NLAS15\NLAS15\bin\Debug\NLAS15.exe">
+   <Modules>
+    <Module Name="nlas15.exe">
+     <Namespaces>
+      <Namespace Name="NLAS15">
+       <Types>
+        <Type Name="Authentification" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="p" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Gestion M2L\NLAS15\NLAS15" File="Authentification.Designer.cs" Line="15">'Authentification' contient le champ 'Authentification.p' qui est de type IDisposable : 'SpeechSynthesizer'. Changez la méthode Dispose de 'Authentification' pour appeler Dispose ou Close dans ce champ.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NLAS" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'NLAS'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NLAS+AdminDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'NLAS.AdminDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NLAS+BenevoleDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'NLAS.BenevoleDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NLAS+LigueDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'NLAS.LigueDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NLAS+PersonneDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'NLAS.PersonneDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NLAS+PersonnelDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'NLAS.PersonnelDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NLAS+StageDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'NLAS.StageDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NLAS+VisiteDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'NLAS.VisiteDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NLAS+VisiteurDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'NLAS.VisiteurDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Réponse" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'Réponse'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Réponse+AdminDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'Réponse.AdminDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Réponse+BenevoleDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'Réponse.BenevoleDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Réponse+LigueDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'Réponse.LigueDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Réponse+PersonneDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'Réponse.PersonneDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Réponse+PersonnelDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'Réponse.PersonnelDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Réponse+StageDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'Réponse.StageDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Réponse+VisiteDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'Réponse.VisiteDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Réponse+VisiteurDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'Réponse.VisiteurDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="StagiaireDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'StagiaireDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="StagiaireDataSet+StagiaireDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Ajoutez une implémentation de GetObjectData au type 'StagiaireDataSet.StagiaireDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VPortail" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="p" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2017-04-29 16:35:14Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Gestion M2L\NLAS15\NLAS15" File="VPortail.Designer.cs" Line="15">'VPortail' contient le champ 'VPortail.p' qui est de type IDisposable : 'SpeechSynthesizer'. Changez la méthode Dispose de 'VPortail' pour appeler Dispose ou Close dans ce champ.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>Les champs pouvant être supprimés doivent l'être</Name>
+   <Description>Si un type qui implémente IDisposable contient des champs qui, eux-aussi, implémentent IDisposable, l'implémentation Dispose() du type d'encapsulation doit appeler Dispose() dans chaque champ supprimable.</Description>
+   <Resolution Name="Default">{0} contient le champ {1} qui est de type IDisposable : {2}. Changez la méthode Dispose de {0} pour appeler Dispose ou Close dans ce champ.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>Implémentez ISerializable comme il se doit</Name>
+   <Description>Si un type peut être assigné à ISerializable, il doit implémenter GetObjectData. Pour les types unsealed (non scellés), la méthode GetObjectData doit pouvoir être appelée et remplacée par des types dérivés.</Description>
+   <Resolution Name="Default">Ajoutez une implémentation de GetObjectData au type {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Catégorie</String>
+  <String Key="Certainty">Certitude</String>
+  <String Key="CollapseAll">Réduire tout</String>
+  <String Key="CheckId">ID de contrôle</String>
+  <String Key="Error">Erreur</String>
+  <String Key="Errors">erreur(s)</String>
+  <String Key="ExpandAll">Développer tout</String>
+  <String Key="Help">Aide</String>
+  <String Key="Line">Ligne</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Emplacement non stocké dans le fichier Pdb]</String>
+  <String Key="Project">Projet</String>
+  <String Key="Resolution">Résolution</String>
+  <String Key="Rule">Règle</String>
+  <String Key="RuleFile">Fichier de règles</String>
+  <String Key="RuleDescription">Description de la règle</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">État</String>
+  <String Key="Target">Cible</String>
+  <String Key="Warning">Avertissement</String>
+  <String Key="Warnings">avertissement(s)</String>
+  <String Key="ReportTitle">Rapport d'analyse du code</String>
+ </Localized>
+</FxCopReport>
